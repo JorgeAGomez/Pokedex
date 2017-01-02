@@ -125,6 +125,7 @@
 					D60FE24F1E16158E00E7339B = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W5UDVEMQ22;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
