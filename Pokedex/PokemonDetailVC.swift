@@ -32,13 +32,14 @@ class PokemonDetailVC: UIViewController {
   @IBOutlet weak var evolutionTo: UIImageView!
   @IBOutlet weak var evolutionFrom: UIImageView!
   
+  @IBOutlet weak var evolutionLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     pokemonLabel.text = pokemon.name.capitalized
   }
 
-  @IBAction func backButtonPressed(_ sender: Any) {
-  
-    
+  @IBAction func backButtonPressed(_ sender: UIButton) {
+      dismiss(animated: true, completion: nil)
   }
 }

@@ -17,7 +17,6 @@
 		D60FE26C1E165CC000E7339B /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60FE26B1E165CC000E7339B /* PokeCell.swift */; };
 		D63F3B901E19DC0E003DC634 /* pokefont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D63F3B8F1E19DC0E003DC634 /* pokefont.ttf */; };
 		D63F3B961E19DE12003DC634 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D63F3B941E19DE12003DC634 /* music.mp3 */; };
-		D63F3B971E19DE12003DC634 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = D63F3B951E19DE12003DC634 /* music.png */; };
 		D643CB3A1E1A458000760471 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643CB391E1A458000760471 /* PokemonDetailVC.swift */; };
 		D6643C361E19AC290065CF02 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6643C351E19AC290065CF02 /* csv.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +34,6 @@
 		D60FE26B1E165CC000E7339B /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		D63F3B8F1E19DC0E003DC634 /* pokefont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokefont.ttf; sourceTree = "<group>"; };
 		D63F3B941E19DE12003DC634 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
-		D63F3B951E19DE12003DC634 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		D643CB391E1A458000760471 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		D6643C351E19AC290065CF02 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +113,6 @@
 				D60FE2651E1654F100E7339B /* pokemon.csv */,
 				D63F3B8F1E19DC0E003DC634 /* pokefont.ttf */,
 				D63F3B941E19DE12003DC634 /* music.mp3 */,
-				D63F3B951E19DE12003DC634 /* music.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D63F3B901E19DC0E003DC634 /* pokefont.ttf in Resources */,
-				D63F3B971E19DE12003DC634 /* music.png in Resources */,
 				D60FE25E1E16158E00E7339B /* LaunchScreen.storyboard in Resources */,
 				D63F3B961E19DE12003DC634 /* music.mp3 in Resources */,
 				D60FE25B1E16158E00E7339B /* Assets.xcassets in Resources */,
