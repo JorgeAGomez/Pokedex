@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class PokemonDetailVC: UIViewController {
 
@@ -41,5 +42,10 @@ class PokemonDetailVC: UIViewController {
 
   @IBAction func backButtonPressed(_ sender: UIButton) {
       dismiss(animated: true, completion: nil)
+  }
+  
+  func downloadingData(){
+    
+  
   }
 }
